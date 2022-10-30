@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/code.png" type="image/x-icon" />
+    <title>Himanshu Ramavat</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+      // function sendEmail() {
+      //   const name = document.getElementById("name").value;
+      //   const email = document.getElementById("email").value;
+      //   const project = document.getElementById("project").value;
+      //   const msg = document.getElementById("msg").value;
+      //   Email.send({
+      //     SecureToken: "d6bbfc6f-fd29-4a8a-b982-042d86a061ac",
+      //     To: "himanshuramavat07@gmail.com",
+      //     From: "hr20072001@gmail.com",
+      //     Subject: "Contact Us:- Portfolio",
+      //     Body: [
+      //       {
+      //         Name: `${name}`,
+      //         Email: `${email}`,
+      //         Project: `${project}`,
+      //         Message: `${msg}`,
+      //       },
+      //     ],
+      //   })
+      //     .then((message) =>
+      //       alert(
+      //         "Thank you for contacting me.  \n I will get back to you soon "
+      //       )
+      //     )
+      //     .then(() => (window.location.reload()));
+      //}
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="user">
+        <img
+          src="./images/profile.JPG"
+          alt="profile"
+          title="Himanshu Ramavat"
+        />
+        <h3 class="name">Himanshu Ramavat</h3>
+        <p class="post">front end developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="menu" class="fa-solid fa-bars"></div>
+
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>himanshu ramavat</span></h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eum et
+        nam ullam ipsam perspiciatis repudiandae dicta laboriosam! Sit,
+        temporibus.
+      </p>
+      <a href="#about"
+        ><button class="btn">about me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about </span> me</h1>
+      <div class="row">
+        <div class="info">
+          <h3><span> name : </span> himanshu ramavat</h3>
+          <h3><span> age : </span> 20</h3>
+          <h3><span> qualification : </span> B.E</h3>
+          <h3><span> post : </span> Fresher</h3>
+          <h3><span> language : </span> Gujarati,Hindi,English</h3>
+          <a href="./Himanshu Ramavat_Resume.pdf" download
+            ><button class="btn">
+              download Resume <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+        <div class="counter">
+          <div class="box">
+            <span>0</span>
+            <h3>year of experience</h3>
+          </div>
+
+          <div class="box">
+            <span>10+</span>
+            <h3>project completed</h3>
+          </div>
+
+          <!-- <div class="box">
+                    <span>0</span>
+                    <h3>year of experience</h3>
+                </div>
+
+                <div class="box">
+                    <span>0</span>
+                    <h3>year of experience</h3>
+                </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h1 class="heading">my <span>education </span></h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span> 2019-continue </span>
+          <h3>B.E Information Technology</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, est?
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span> 2018-2019 </span>
+          <h3>secondary education</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, est?
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span> 2016-2017 </span>
+          <h3>Primary education</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, est?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">my <span>portfolio </span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/coding-language.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/coding-man.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/img5.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/professional-programmer-working-.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/img3.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/img4.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact </span> me</h1>
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i>himanshuramavat07@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i>+91-9104621156</h3>
+            <h3><i class="fas fa-phone"></i>+91-6355456853</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"> </i>bhavnagar, gujarat -364002.
+            </h3>
+          </div>
+        </div>
+        <form action="#">
+          <input type="text" placeholder="name" id="name" class="box" />
+          <input type="email" placeholder="email" id="email" class="box" />
+          <input type="text" placeholder="Project" id="project" class="box" />
+          <textarea
+            name=""
+            id="msg"
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn" id="btn12" ">
+            send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <a href="#home">
+      <img src="./images/scroll-top-img.png" alt="" class="top" />
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

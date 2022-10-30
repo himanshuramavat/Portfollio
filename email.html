@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+      function sendEmail() {
+        const nam = document.getElementById("num").value;
+        Email.send({
+          SecureToken: "d6bbfc6f-fd29-4a8a-b982-042d86a061ac",
+          To: "himanshuramavat07@gmail.com",
+          From: "hr20072001@gmail.com",
+          Subject: "Test",
+          Body: [
+            {
+              name: `${nam}`,
+              Number: "123456",
+            },
+          ],
+        }).then((message) =>
+          alert("mail has been sent sucessfully " + `${nam}`)
+        );
+      }
+    </script>
+  </head>
+  <body>
+    <form method="post">
+      <input type="text" name="num" id="num" />
+      <input type="button" value="Send Email" onclick="sendEmail()" />
+    </form>
+  </body>
+</html>
